@@ -20,8 +20,7 @@ Segundo Hogar es una aplicación de página única (SPA) en React que se comunic
 ```
 .
 ├── backend/    API Express (puerto 4000) y data/registros.json
-├── frontend/   SPA React + Vite (puerto 5173)
-└── docs/       Plan de pruebas
+└── frontend/   SPA React + Vite (puerto 5173)
 ```
 
 ## Instalación y ejecución
@@ -99,4 +98,8 @@ Formulario → fetch POST → Express → registros.json → fetch GET → Lista
 
 ## Pruebas realizadas
 
-Ver [docs/PLAN_PRUEBAS.md](docs/PLAN_PRUEBAS.md).
+- Creación y consulta de solicitudes vía API REST y formulario React.
+- Validación de campos obligatorios, formato de correo y fechas en cliente y servidor.
+- Manejo de estados: cargando, lista vacía, confirmación y error de conexión.
+- Persistencia verificada en archivo JSON tras reinicio del backend.
+- Diseño responsive mobile-first comprobado sin desplazamiento horizontal.
